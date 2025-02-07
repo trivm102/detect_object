@@ -5,5 +5,5 @@ Werkzeug
 ultralytics
 face_recognition
 inference_sdk
-ocr
+ocr==0.1.0
 PIL
