@@ -1,9 +1,9 @@
-autopep8
+autopep8==2.3.2
 Flask
 Flask[async]
-gunicorn
+gunicorn==23.0.0
 Werkzeug==3.1.2
-ultralytics
-face_recognition
+ultralytics==8.3.72
+face_recognition==1.3.0
 git+https://github.com/roboflow/inference.git
-pytesseract
+pytesseract==2.1.1
