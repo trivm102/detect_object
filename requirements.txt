@@ -2,3 +2,8 @@ autopep8
 Flask
 gunicorn
 Werkzeug
+ultralytics
+face_recognition
+inference_sdk
+ocr
+PIL
