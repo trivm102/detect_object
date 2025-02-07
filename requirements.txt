@@ -2,7 +2,7 @@ autopep8
 Flask
 Flask[async]
 gunicorn
-Werkzeug
+Werkzeug==3.1.2
 ultralytics
 face_recognition
 git+https://github.com/roboflow/inference.git
