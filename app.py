@@ -6,6 +6,10 @@ import asyncio
 
 app = Flask(__name__)
 
+@app.route("/", methods=["GET"])
+def home():
+    return "<h1>Home</h1>"
+
 # Đường dẫn lưu trữ tệp
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
