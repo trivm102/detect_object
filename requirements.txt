@@ -1,9 +1,9 @@
 autopep8
 Flask
+Flask[async]
 gunicorn
 Werkzeug
 ultralytics
 face_recognition
-inference_sdk
-ocr==0.1.0
-PIL
+git+https://github.com/roboflow/inference.git
+pytesseract
