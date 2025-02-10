@@ -1,8 +1,8 @@
 fastapi
 uvicorn==0.22.0
-gunicorn==23.0.0
-autopep8==2.2.0
+# gunicorn==23.0.0
+# autopep8==2.2.0
 ultralytics==8.3.40
-face_recognition==1.3.0
-git+https://github.com/roboflow/inference.git
+# face_recognition==1.3.0
+# git+https://github.com/roboflow/inference.git
 pytesseract==0.3.13

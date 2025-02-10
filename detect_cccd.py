@@ -1,13 +1,13 @@
 from ultralytics import YOLO
-from inference_sdk import InferenceHTTPClient
+# from inference_sdk import InferenceHTTPClient
 from ocr import Orc
 import cv2
 
 model = YOLO("best_cccd.pt")
-CLIENT = InferenceHTTPClient(
-    api_url="https://detect.roboflow.com",
-    api_key="rek0guyPgQJRNt5CF2vD"
-)
+# CLIENT = InferenceHTTPClient(
+#     api_url="https://detect.roboflow.com",
+#     api_key="rek0guyPgQJRNt5CF2vD"
+# )
 
 
 class DetectCCCD():
